@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+input:-ms-input-placeholder { color:#a8a8a8; }
+input::-webkit-input-placeholder { color:#a8a8a8; }
+input::-moz-placeholder { color:#a8a8a8; }
+
+html { text-align: center; display: inline-block; }
+body { margin: 8px; padding: 5px; }
+ul { list-style-type: none; }
+
+/* 링크 hover, cursor 효과 */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #006699;
+    text-decoration: underline;
+}
