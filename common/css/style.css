@@ -2,8 +2,7 @@
 
 /* 폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 input:-ms-input-placeholder { color:#a8a8a8; }
@@ -50,11 +49,9 @@ ul { list-style-type: none; }
     box-sizing: inherit;
     margin-top: 10px;
     margin-right: 8px;
-    margin-bottom: 10px;
     background-color: #FFFDF7;
     width: 180px;
     height: 1000px;
-    /*font-family: 'Nanum Gothic', sans-serif;*/
     font-family: 'Poor Story', cursive;
     font-size: 18px;
     float: left;
@@ -63,10 +60,37 @@ ul { list-style-type: none; }
 #board { font-size: 22px; font-weight: 800; text-align: center; }
 #data { font-size: 22px; font-weight: 800; text-align: center; }
 #archive { font-size: 22px; font-weight: 800; text-align: center; }
+#shortcuts { font-size: 22px; font-weight: 800; text-align: center; }
 .introduce-list { padding-inline-start: 15px; text-align: left; margin-block-start: 10px; margin-block-end: 15px; }
 .boards-list { padding-inline-start: 15px; text-align: left; margin-block-start: 10px; margin-block-end: 15px; }
 .data-list { padding-inline-start: 15px; text-align: left; margin-block-start: 10px; margin-block-end: 15px; }
 .archive-list { padding-inline-start: 15px; text-align: left; margin-block-start: 10px; margin-block-end: 15px; }
+.nav-introduce { margin-top: 10px; }
+.shortcut-wrap { margin-top: 35px; }
+.karl_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
+.kca_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
+.kau_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
+
+.board-right {
+    margin-top: 10px;
+    width: 1000px;
+    height: 1000px;
+	text-align: left;
+    display: inline-block;
+    border: 1px solid #DCDCDC;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 13px;
+}
+
+.footer {
+	background-color: #F8F8F8;
+    height: 130px;
+    margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+}
+.footer p { position: relative; top : 20px; line-height: 10px; }
+#copyright { margin-top: 25px; }
 
 /* 링크 hover, cursor 효과 */
 a:link {
