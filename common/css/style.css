@@ -67,6 +67,7 @@ ul { list-style-type: none; }
 .archive-list { padding-inline-start: 15px; text-align: left; margin-block-start: 10px; margin-block-end: 15px; }
 .nav-introduce { margin-top: 10px; }
 .shortcut-wrap { margin-top: 35px; }
+.fb_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
 .karl_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
 .kca_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
 .kau_link { position: relative; width: auto; height: auto; max-width: 170px; max-height: 85px; margin-bottom: 3px; }
